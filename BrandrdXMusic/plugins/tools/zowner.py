@@ -24,7 +24,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://t.me/Frozensupport1"
+                        "ƨσʋяcɛ", url=f"https://t.me/effectbots"
                     )
                 ]
             ]
