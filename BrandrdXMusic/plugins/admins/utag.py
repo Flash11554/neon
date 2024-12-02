@@ -1,6 +1,5 @@
 import asyncio
 from pyrogram import Client, filters
-from pyrogram.types import ChatPermissions
 from BrandrdXMusic import app
 from BrandrdXMusic.utils.branded_ban import admin_filter
 
@@ -29,10 +28,12 @@ async def tag_all_users(_, message):
 
     async with lock:
         SPAM_CHATS[chat_id] = True  # Start tagging
+        print(f"Tagging started in chat {chat_id}")
 
     while True:
         async with lock:
             if not SPAM_CHATS.get(chat_id):
+                print(f"Tagging stopped in chat {chat_id}")
                 await message.reply_text("**Tagging stopped successfully.**")
                 break
 
@@ -53,6 +54,8 @@ async def tag_all_users(_, message):
             print(f"Error: {e}")
             break
 
+        # Add a short delay to avoid a tight loop
+        await asyncio.sleep(0.1)
 
 @app.on_message(
     filters.command(
@@ -68,6 +71,7 @@ async def stop_tagging(_, message):
     async with lock:
         if SPAM_CHATS.get(chat_id, False):
             SPAM_CHATS[chat_id] = False
+            print(f"Stop command received for chat {chat_id}")
             await message.reply_text("**Stopping the tagging process...**")
         else:
             await message.reply_text("**No tagging process is currently active.**")
