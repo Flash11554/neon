@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/frozenoffical/effectmusic-",
+    "https://github.com/Flash11552/effectmusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,10 +89,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/5166d1dba3d7e0fdafa4a-20f8519a37cf3aa00b.jpg"
+    "START_IMG_URL", "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/5166d1dba3d7e0fdafa4a-20f8519a37cf3aa00b.jpg"
+    "PING_IMG_URL", "https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg"
 )
 PLAYLIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
 STATS_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
