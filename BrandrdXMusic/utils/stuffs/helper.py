@@ -1,217 +1,165 @@
 # helper for strings
 
 class Helper(object):
-    HELP_M = '''ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴄᴀᴛᴇɢᴏʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴɴᴀ ɢᴇᴛ ʜᴇʟᴩ.
-ᴀsᴋ ʏᴏᴜʀ ᴅᴏᴜʙᴛs ᴀᴛ sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ
+    HELP_M = '''KATEQORİYANIZI SEÇİN  
+Hansı mövzuda köməyə ehtiyacınız varsa, dəstək söhbətində suallarınızı verin.
 
-ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /'''
-    HELP_ChatGPT = '''CʜᴀᴛGPT
-
-CʜᴀᴛGPT ᴄᴏᴍᴍᴀɴᴅꜱ:
-
-/ask ➠ ǫᴜᴇʀɪᴇs ᴛʜᴇ ᴀɪ ᴍᴏᴅᴇʟ ᴛᴏ ɢᴇᴛ ᴀ ʀᴇsᴘᴏɴsᴇ ᴛᴏ ʏᴏᴜʀ ǫᴜᴇsᴛɪᴏɴ.
+Bütün əmrlər belə istifadə oluna bilər: /
 '''
+    HELP_ChatGPT = '''ChatGPT
 
-    HELP_Reel = '''Rᴇᴇʟ
+ChatGPT ƏMRLƏRİ:
 
-Rᴇᴇʟ ᴄᴏᴍᴍᴀɴᴅꜱ:
-
-/ig [URL] ➠ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟs. Pʀᴏᴠɪᴅᴇ ᴛʜᴇ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟ URL ᴀғᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.
-/instagram [URL] ➠ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟs. Pʀᴏᴠɪᴅᴇ ᴛʜᴇ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟ URL ᴀғᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.
-/reel [URL]  ➠ ᴅᴏᴡɴʟᴏᴀᴅ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟs. Pʀᴏᴠɪᴅᴇ ᴛʜᴇ ɪɴsᴛᴀɢʀᴀᴍ ʀᴇᴇʟ URL ᴀғᴛᴇʀ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ.
+/de ➠ Süni Zəka modelinə suallarınızı verib cavab alın.
 '''
+    HELP_Reel = '''Reel
 
-    HELP_TagAll = '''Tᴀɢ
+Reel ƏMRLƏRİ:
 
-  Tᴀɢ ᴄᴏᴍᴍᴀɴᴅꜱ:
-
-✿ ᴄʜᴏᴏsᴇ ᴛᴀɢ ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ✿
-
-๏ /gmtag ➛ ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ 
-ᴛᴀɢ sᴛᴏᴘ ⇴ /gmstop
-
-๏ /gntag ➛ ɢᴏᴏᴅ ɴɪɢʜᴛ ᴛᴀɢ sᴛᴏᴘ ⇴ /gnstop
-
-๏ /tagall ➛ ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ᴛᴀɢ sᴛᴏᴘ ⇴ /tagoff /tagstop
-
-๏ /hitag ➛ ʀᴀɴᴅᴏᴍ ʜɪɴᴅɪ ᴍᴇssᴀɢᴇ ᴛᴀɢ sᴛᴏᴘ ⇴/histop
-
-๏ /shayari ➛ ʀᴀɴᴅᴏᴍ sʜᴀʏᴀʀɪ ᴛᴀɢ sᴛᴏᴘ ⇴ /shstop
-
-๏ /utag ➛ ᴀɴʏ ᴡʀɪᴛᴛᴇɴ ᴛᴇxᴛ ᴛᴀɢ sᴛᴏᴘ ⇴ /cancel
+/ig [URL] ➠ Instagram videolarını yükləyin. Komandanın ardından Instagram URL-ni qeyd edin.
+/instagram [URL] ➠ Instagram videolarını yükləyin. URL-ni qeyd edin.
+/reel [URL] ➠ Instagram videolarını yükləyin. URL-ni qeyd edin.
 '''
+    HELP_TagAll = '''Tag
 
-    HELP_Info = '''Iɴꜰᴏ
+Tag ƏMRLƏRİ:
 
-Iɴꜰᴏ ᴄᴏᴍᴍᴀɴᴅꜱ:
+✿ Çatda tag seçin ✿
 
-/id : ɢᴇᴛ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ɢʀᴏᴜᴘ ɪᴅ. ɪғ ᴜsᴇᴅ ʙʏ ʀᴇᴘʟʏɪɴɢ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ, ɢᴇᴛs ᴛʜᴀᴛ ᴜsᴇʀ's ɪᴅ.
-/info : ɢᴇᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜsᴇʀ.
+๏ /srtag ➛ Sabahınız xeyir tagı  
+Tagı dayandırmaq üçün: /srstop
+
+๏ /grtag ➛ Gecəniz xeyir tagı  
+Tagı dayandırmaq üçün: /grstop
+
+๏ /tagall ➛ Təsadüfi mesaj tagı  
+Dayandırmaq üçün: /tagoff /tagstop
+
+๏ /aztag ➛ Təsadüfi Azərbaycan dilində mesaj tagı  
+Dayandırmaq üçün: /azstop
+
+๏ /stag ➛ Təsadüfi şeir tagı  
+Dayandırmaq üçün: /sstop
 '''
-    HELP_History = '''Hɪsᴛᴏʀʏ
+    HELP_Info = '''Məlumat
 
-Hɪsᴛᴏʀʏ ᴄᴏᴍᴍᴀɴᴅꜱ:
+Məlumat ƏMRLƏRİ:
 
-ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ᴀᴠᴀɪʟᴀʙʟᴇ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴄᴏᴍᴍᴀɴᴅs:
-
-⦿ /sɢ ᴏʀ /Hɪsᴛᴏʀʏ
-Dᴇsᴄʀɪᴘᴛɪᴏɴ:
-⦿ Fᴇᴛᴄʜᴇs ᴀ ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴀ ᴜsᴇʀ's ᴍᴇssᴀɢᴇ ʜɪsᴛᴏʀʏ.
-
-Usᴀɢᴇ:
-⦿ /sɢ [ᴜsᴇʀɴᴀᴍᴇ/ɪᴅ/ʀᴇᴘʏ]
-
-Dᴇᴛᴀɪs:
-⦿ Fᴇᴛᴄʜᴇs ᴀ ʀᴀɴᴅᴏᴍ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇssᴀɢᴇ ʜɪsᴛᴏʀʏ ᴏғ ᴛʜᴇ sᴘᴇᴄɪғɪᴇᴅ ᴜsᴇʀ.
-⦿ Cᴀɴ ʙᴇ ᴜsᴇᴅ ʙʏ ᴘʀᴏᴠɪᴅɪɴɢ ᴀ ᴜsᴇʀɴᴀᴍᴇ, ᴜsᴇʀ ID, ᴏʀ ʀᴇᴘʏɪɴɢ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ғʀᴏᴍ ᴛʜᴇ ᴜsᴇʀ.
-⦿ Aᴄᴄᴇssɪʙᴇ ᴏɴʏ ʙʏ ᴛʜᴇ ʙᴏᴛ's ᴀssɪsᴛᴀɴᴛs.
-
-Exᴀᴍᴘᴇs:
-⦿ /sɢ ᴜsᴇʀɴᴀᴍᴇ`
-⦿ /sɢ ᴜsᴇʀ_ɪᴅ`
-⦿ /sɢ [ʀᴇᴘʏ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ]`
+/id : Mövcud qrupun ID-sini alın. Mesaja cavab olaraq istifadə edildikdə həmin istifadəçinin ID-sini göstərir.  
+/info : İstifadəçi haqqında məlumat alın.
 '''
+    HELP_History = '''Tarixçə
 
-    HELP_Couples = '''ᴄᴏᴜᴘʟᴇꜱ
+Tarixçə ƏMRLƏRİ:
 
-ᴄᴏᴜᴘʟᴇꜱ ᴄᴏᴍᴍᴀɴᴅꜱ:
+Qrup idarəetmə əmrləri:
 
-/couples - ᴄʜᴏᴏsᴇ 2 ᴜsᴇʀs ᴀɴᴅ sᴇɴᴅ ᴛʜᴇɪʀ ɴᴀᴍᴇ ᴀs ᴄᴏᴜᴘʟᴇs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ.
+⦿ /sg və ya /tarixçə  
+Təsadüfi bir istifadəçinin mesaj tarixçəsindən məlumat toplayır.
+
+İstifadə qaydası:  
+⦿ /sg [istifadəçi adı/ID/cavab ver]
+Detallar:  
+⦿ Mesaj tarixçəsindən istifadəçinin mesajını göstərir. Ad, ID və ya cavab verərək istifadə olunur.  
+Yalnız bot köməkçiləri üçün keçərlidir.
+
+Nümunələr:  
+⦿ /sg istifadəçi_adı  
+⦿ /sg istifadəçi_ID  
+⦿ /sg [mesaja cavab ver]
 '''
+    HELP_Couples = '''Cütlüklər
 
-    HELP_Extra = '''Exᴛʀᴀ
+Cütlüklər ƏMRLƏRİ:
 
-Exᴛʀᴀ ᴄᴏᴍᴍᴀɴᴅꜱ:
-
-⦿ /tgm ➠ ᴜᴘʟᴏᴀᴅs ᴀ ᴘʜᴏᴛᴏ (ᴜɴᴅᴇʀ 𝟻ᴍʙ) ᴛᴏ ᴛʜᴇ ᴄʟᴏᴜᴅ ᴀɴᴅ ɢɪᴠᴇs ᴀ ʟɪɴᴋ.
-⦿ /paste ➠ ᴜᴘʟᴏᴀᴅs ᴀ ᴛᴇxᴛ sɴɪᴘᴘᴇᴛ ᴛᴏ ᴛʜᴇ ᴄʟᴏᴜᴅ ᴀɴᴅ ɢɪᴠᴇs ᴀ ʟɪɴᴋ.
-⦿ /tr ➠ ᴛʀᴀɴsʟᴀᴛᴇs ᴛᴇxᴛ.
+/couples - 2 istifadəçi seçin və onların adlarını cütlük kimi göstərin.
 '''
-    HELP_Action = '''Aᴄᴛɪᴏɴ
+    HELP_Extra = '''Əlavə
 
-Aᴄᴛɪᴏɴ ᴄᴏᴍᴍᴀɴᴅꜱ:
+Əlavə ƏMRLƏR:
 
-» ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Bᴀɴs & Mᴜᴛᴇ :
-
- ❍ /kickme: kicks the user who issued the command
-
-Admins only:
- ❍ /ban <userhandle>: bans a user. (via handle, or reply)
- ❍ /sban <userhandle>: Silently ban a user. Deletes command, Replied message and doesn't reply. (via handle, or reply)
- ❍ /tban <userhandle> x(m/h/d): bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
- ❍ /unban <userhandle>: unbans a user. (via handle, or reply)
- ❍ /kick <userhandle>: kicks a user out of the group, (via handle, or reply)
- ❍ /mute <userhandle>: silences a user. Can also be used as a reply, muting the replied to user.
- ❍ /tmute <userhandle> x(m/h/d): mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
- ❍ /unmute <userhandle>: unmutes a user. Can also be used as a reply, muting the replied to user.
-__
-𝐒ᴘᴇᴄɪᴀʟ 𝐂ᴏᴍᴍᴀɴᴅs 𝐒ᴜᴘᴘᴏʀᴛ 𝐀ʟʟ 𝐄xᴀᴍᴘʟᴇ  - Bɾαɳԃҽԃ  Ⴆαɳ Ⴆɾαɳԃҽԃ ɱυƚҽ Ⴆɾαɳԃҽԃ ρɾσɱσƚҽ ..... 𝚎𝚝𝚌
+⦿ /tgm ➠ Fotoşəkili (5 MB-dən kiçik) yükləyib link təqdim edir.  
+⦿ /paste ➠ Mətn hissəsini yükləyib link təqdim edir.  
+⦿ /tr ➠ Mətn tərcümə edir.
 '''
-    HELP_Search = '''Sᴇᴀʀᴄʜ
+    HELP_Action = '''Fəaliyyət
 
-Sᴇᴀʀᴄʜ ᴄᴏᴍᴍᴀɴᴅꜱ:
+Fəaliyyət ƏMRLƏRİ:
 
-• /google <query> : Search the google for the given query.
-• /image (/imgs) <query> : Get the images regarding to your query
+» Ban və Səssizlik üçün mövcud əmrlər:
 
-Example:
-/google pyrogram: return top 5 reuslts.
+ ❍ /kickme: Komandanı icra edən istifadəçini qrupdan çıxarır.
+
+Yalnız adminlər üçün:  
+ ❍ /ban <istifadəçi adı>: İstifadəçini bloklayır.  
+ ❍ /sban <istifadəçi adı>: Səssizcə istifadəçini bloklayır (cavabı silir).  
+ ❍ /tban <istifadəçi adı> x(m/s/g): İstifadəçini müəyyən müddətə bloklayır.  
+ ❍ /unban <istifadəçi adı>: İstifadəçini blokdan çıxarır.  
+ ❍ /kick <istifadəçi adı>: İstifadəçini qrupdan çıxarır.  
+ ❍ /mute <istifadəçi adı>: İstifadəçini səssiz edir.  
+ ❍ /tmute <istifadəçi adı> x(m/s/g): İstifadəçini müəyyən müddətə səssiz edir.  
+ ❍ /unmute <istifadəçi adı>: Səssizlik rejimini aradan qaldırır.
+
 '''
+    HELP_Search = '''Axtarış
 
-    HELP_Font = '''ғᴏɴᴛ
+Axtarış ƏMRLƏRİ:
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ғᴏɴᴛ ᴍᴏᴅᴜʟᴇ:
+• /google <sorğu> : Google-da sorğu axtarışı edir.  
+• /cek (/imgs) <sorğu> : Sorğuya uyğun şəkilləri göstərir.
 
-ғᴏɴᴛ ᴍᴏᴅᴜʟᴇ:
-
-ʙʏ ᴜsɪɴɢ ᴛʜɪs ᴍᴏᴅᴜʟᴇ ʏᴏᴜ ᴄᴀɴ ᴄʜᴀɴɢᴇ ғᴏɴᴛs ᴏғ ᴀɴʏ ᴛᴇxᴛ!
-
-◌ /font [ᴛᴇxᴛ]
+Nümunə:  
+/google pyrogram: Ən yaxşı 5 nəticəni qaytarır.
 '''
-    HELP_Bots = '''Bᴏᴛs
+    HELP_Font = '''Şrift
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ Bᴏᴛs ᴍᴏᴅᴜʟᴇ:
-ɢᴀᴍᴇs ᴍᴏᴅᴜʟᴇ:
+Şrift modulu ilə mətnlərinizin şriftini dəyişə bilərsiniz.
 
-◌ /bots - ɢᴇᴛ ᴀ ʟɪsᴛ ᴏғ ʙᴏᴛs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
+Əmr:  
+◌ /font [Mətn]
 '''
-    HELP_TG = '''Ⓣ-ɢʀᴀᴘʜ
+    HELP_Bots = '''Botlar
 
-Ⓣ-ɢʀᴀᴘʜ ᴄᴏᴍᴍᴀɴᴅꜱ:
-
-ᴄʀᴇᴀᴛᴇ ᴀ ᴛᴇʟᴇɢʀᴀᴘʜ ʟɪɴᴋ ᴀɴʏ ᴍᴇᴅɪᴀ!
-
-◌ /tgm [ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇᴅɪᴀ]
-◌ /tgt [ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇᴅɪᴀ]
+Botlar haqqında məlumat almaq üçün əmrlər:  
+◌ /bots - Qrupdakı botların siyahısını göstərir.
 '''
-    HELP_Source = '''Sᴏᴜʀᴄᴇ
+    HELP_TG = '''Ⓣ-Qraf
 
-Tʜɪs ᴍᴏᴅᴜᴇ ᴘʀᴏᴠɪᴅᴇs ᴜᴛɪɪᴛʏ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴜsᴇʀs ᴛᴏ ɪɴᴛᴇʀᴀᴄᴛ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ.:
+Ⓣ-Qraf ƏMRLƏRİ:
 
-Sᴏᴜʀᴄᴇ ᴍᴏᴅᴜʟᴇ:
+Telegraph linki ilə media yaradın!
 
-◌ /ʀᴇᴘᴏ : Gᴇᴛ ᴛʜᴇ ɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ's sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ.
+◌ /tgm [istənilən media ilə cavab verin]  
+◌ /tgt [istənilən media ilə cavab verin]
 '''
-    HELP_TD = '''Tʀᴜᴛʜ-ᗪᴀʀᴇ
+    HELP_TD = '''Düzlük və Cəsarət
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ Tʀᴜᴛʜ-ᗪᴀʀᴇ ᴍᴏᴅᴜʟᴇ:
+ƏMRLƏR:  
 
-ᴛʀᴜᴛʜ ᴀɴᴅ ᴅᴀʀᴇ
-◌ /truth : sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴛʀᴜᴛʜ sᴛʀɪɴɢ.
-◌ /dare : sᴇɴᴅs ᴀ ʀᴀɴᴅᴏᴍ ᴅᴀʀᴇ sᴛʀɪɴɢ.
+◌ /truth : Təsadüfi bir sual təqdim edir.  
+◌ /dare : Təsadüfi bir tapşırıq təqdim edir.
 '''
-    HELP_Quiz = '''Qᴜɪᴢ
+    HELP_Quiz = '''Viktorina
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ Qᴜɪᴢ ᴍᴏᴅᴜʟᴇ:
+Viktorina ƏMRİ:
 
-Qᴜɪᴢ
-◌ /quiz - ᴛᴏ ɢᴇᴛ ᴀɴ ʀᴀɴᴅᴏᴍ ǫᴜɪᴢ
+◌ /quiz - Təsadüfi sual əldə etmək üçün.
 '''
-    HELP_TTS = '''ᴛᴛs
+    HELP_TTS = '''Mətnə Səs
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ᴛᴛs ᴍᴏᴅᴜʟᴇ:
+ƏMR:
 
-❀ ᴛᴛs
-◌ /tts : [ᴛᴇxᴛ]
-
-◌ ᴜsᴀɢᴇ ➛ ᴛᴇxᴛ ᴛᴏ ᴀᴜᴅɪᴏ
+❀ Mətn Səsləndirmə  
+◌ /tts : [mətn]  
 '''
     HELP_Radio = '''Radio
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ Radio ᴍᴏᴅᴜʟᴇ:
+Radio ƏMRİ:
 
-◌ /radio - ᴛᴏ ᴘʟᴀʏ ʀᴀᴅɪᴏ ɪɴ ᴛʜᴇ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
+◌ /radio - Səsli söhbətdə radio oynatmaq üçün.
 '''
-    HELP_Q = '''ǫᴜᴏᴛʟʏ
+    HELP_Q = '''Sitat Yarat
 
-ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ ǫᴜᴏᴛʟʏ ᴍᴏᴅᴜʟᴇ:
+ƏMR:
 
-◌ /q : ᴄʀᴇᴀᴛᴇ ᴀ ǫᴜᴏᴛᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇssᴀɢᴇ
-
-◌ /q r : ᴄʀᴇᴀᴛᴇ ᴀ ǫᴜᴏᴛᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇssᴀɢᴇ ᴡɪᴛʜ ʀᴇᴘʟʏ
-'''
-    
-    
-    fullpromote = {
-    'can_change_info': True,
-    'can_post_messages': True,
-    'can_edit_messages': True,
-    'can_delete_messages': True,
-    'can_invite_users': True,
-    'can_restrict_members': True,
-    'can_pin_messages': True,
-    'can_promote_members': True,
-    'can_manage_chat': True,
-}
-
-    promoteuser = {
-    'can_change_info': False,
-    'can_post_messages': True,
-    'can_edit_messages': True,
-    'can_delete_messages': False,
-    'can_invite_users': True,
-    'can_restrict_members': False,
-    'can_pin_messages': False,
-    'can_promote_members': False,
-    'can_manage_chat': True,
-}
+◌ /q : Mesajdan sitat yaradın.
