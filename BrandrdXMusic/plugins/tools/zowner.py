@@ -8,16 +8,16 @@ from BrandrdXMusic.mongo.afkdb import LOGGERS as OWNERS
 from BrandrdXMusic.utils.database import add_served_chat, get_assistant
 
 
-@app.on_message(filters.command("repo"))
+@app.on_message(filters.command("effect"))
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg",
+        photo=f"https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg",
         caption=f"""🍁𝐂𝐋𝐈𝐂𝐊🥰𝐁𝐄𝐋𝐎𝐖💝𝐁𝐔𝐓𝐓𝐎𝐍✨𝐓𝐎🙊𝐆𝐄𝐓🌱𝐑𝐄𝐏𝐎🍁""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/prashantsahlot/frozenvcmusic"
+                        "ƨσʋяcɛ", url=f"https://t.me/effectbots"
                     )
                 ]
             ]
@@ -25,16 +25,16 @@ async def help(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command("clone"))
+@app.on_message(filters.command("effectt"))
 async def clones(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg",
-        caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner @FroZzeN_xD For Clone.**""",
+        photo=f"https://graph.org/file/13062897543af0caf1265-6b0d9b48e24915aa03.jpg",
+        caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner @Tgsahibi010 For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://github.com/prashantsahlot/frozenvcmusic"
+                        "ƨσʋяcɛ", url=f"https://t.me/effectbots"
                     )
                 ]
             ]
@@ -68,7 +68,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @vcmusicro_bot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Effectmusicrobot`**"
         )
         return
 
@@ -112,5 +112,5 @@ __HELP__ = """
 Tʜɪs ᴍᴏᴅᴜᴇ ᴘʀᴏᴠɪᴅᴇs ᴜᴛɪɪᴛʏ ᴄᴏᴍᴍᴀɴᴅs ғᴏʀ ᴜsᴇʀs ᴛᴏ ɪɴᴛᴇʀᴀᴄᴛ ᴡɪᴛʜ ᴛʜᴇ ʙᴏᴛ.
 
 ### Cᴏᴍᴍᴀɴᴅs:
-- `/ʀᴇᴘᴏ`: Gᴇᴛ ᴛʜᴇ ɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ's sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ.
+- `/effect`: Gᴇᴛ ᴛʜᴇ ɪɴᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ's sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʀᴇᴘᴏsɪᴛᴏʀʏ.
 """
