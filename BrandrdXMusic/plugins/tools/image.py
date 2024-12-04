@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 from BrandrdXMusic import app
 
-@app.on_message(filters.command(["imgs", "image"], prefixes=["/", "!"]))
+@app.on_message(filters.command(["imgs", "image", "cek"], prefixes=["/", "!"]))
 async def google_img_search(client: Client, message: Message):
     chat_id = message.chat.id
 
@@ -33,12 +33,12 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Error in downloading images: {e}")
 
-    msg = await message.reply("Frozen Scrapping images...")
+    msg = await message.reply("Effect Scrapping images...")
 
     count = 0
     for img in lst:
         count += 1
-        await msg.edit(f"=> Frozen owo scrapped images {count}")
+        await msg.edit(f"=> Effect owo scrapped images {count}")
 
     try:
         await app.send_media_group(
