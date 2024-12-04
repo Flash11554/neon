@@ -11,7 +11,7 @@ Bütün əmrlər belə istifadə oluna bilər: /
 
 ChatGPT ƏMRLƏRİ:
 
-/de ➠ Süni Zəka modelinə suallarınızı verib cavab alın.
+/de (/ask) ➠ Süni Zəka modelinə suallarınızı verib cavab alın.
 """
 
     HELP_Reel = """Reel
@@ -29,6 +29,9 @@ Tag ƏMRLƏRİ:
 
 ✿ Çatda tag seçin ✿
 
+๏ /utag (/all)➛ Qrupda istifadəçiləri tağ edər 
+Dayandırmaq üçün: /cancel
+
 ๏ /srtag ➛ Sabahınız xeyir tagı  
 Tagı dayandırmaq üçün: /srstop
 
@@ -36,14 +39,7 @@ Tagı dayandırmaq üçün: /srstop
 Tagı dayandırmaq üçün: /grstop
 
 ๏ /tagall ➛ Təsadüfi mesaj tagı  
-Dayandırmaq üçün: /tagoff /tagstop
-
-๏ /aztag ➛ Təsadüfi Azərbaycan dilində mesaj tagı  
-Dayandırmaq üçün: /azstop
-
-๏ /stag ➛ Təsadüfi şeir tagı  
-Dayandırmaq üçün: /sstop
-"""
+Dayandırmaq üçün: /tagoff /tagstop"""
 
     HELP_Info = """Məlumat
 
