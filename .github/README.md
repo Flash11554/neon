@@ -42,7 +42,7 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʟᴏᴄᴀʟ ʜᴏsᴛ/ ᴠᴘs 」─
 </h3>
 
-- Get your [Necessary Variables](https://github.com/Flash11552/effectmusic/blob/master/sample.env)
+- Get your [Necessary Variables](https://github.com/prashantsahlot/frozenvcmusic/blob/master/sample.env)
 ---
 
 ### 🔧 Quick Setup
@@ -66,7 +66,7 @@
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/Flash11552/effectmusic&& cd frozenvcmusic
+   git clone https://github.com/frozenoffical/frozenvcmusic && cd frozenvcmusic
    ```
 6. **Install Requirements**
    ```bash
