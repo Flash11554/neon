@@ -72,11 +72,11 @@ def AdminRightsCheck(mystic):
                     if message.from_user.id not in admins:
                         if await is_skipmode(message.chat.id):
                             upvote = await get_upvote_count(chat_id)
-                            text = f"""<b>ᴀᴅᴍɪɴ ʀɪɢʜᴛs ɴᴇᴇᴅᴇᴅ</b>
+                            text = f"""<b>**ADMİN YETKİLİLƏRİ LAZIMDIR**</b>
 
-ʀᴇғʀᴇsʜ ᴀᴅᴍɪɴ ᴄᴀᴄʜᴇ ᴠɪᴀ : /reload
+**Admin siyahısını yeniləyin** : /reload
 
-» {upvote} ᴠᴏᴛᴇs ɴᴇᴇᴅᴇᴅ ғᴏʀ ᴘᴇʀғᴏʀᴍɪɴɢ ᴛʜɪs ᴀᴄᴛɪᴏɴ."""
+» {upvote} **Bunu həyata keçirmək üçün lazım olan səslər**"""
 
                             command = message.command[0]
                             if command[0] == "c":
