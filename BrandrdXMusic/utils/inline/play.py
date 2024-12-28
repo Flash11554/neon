@@ -68,7 +68,7 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ owner ❥", url=f"https://t.me/Tgsahibi010"
+                text="⛦ ᴋᴜʀᴜᴄᴜ ❥", url=f"https://t.me/Tgsahibi010"
             ),
             InlineKeyboardButton(
                 text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/effectbots"
@@ -90,7 +90,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ owner ❥", url=f"https://t.me/Tgsahibi010"
+                text="⛦ ᴋᴜʀᴜᴄᴜ ❥", url=f"https://t.me/Tgsahibi010"
             ),
             InlineKeyboardButton(
                 text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/effectbots"
@@ -178,7 +178,7 @@ def telegram_markup(_, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text="Next",
+                text="ɴöᴠʙəᴛɪ",
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
@@ -201,7 +201,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="II ᴘᴀᴜsᴇ",
+                text="II ",
                 callback_data=f"ADMIN Pause|{chat_id}",
             ),
             InlineKeyboardButton(text="▢ sᴛᴏᴘ", callback_data=f"ADMIN Stop|{chat_id}"),
@@ -245,7 +245,7 @@ def stream_markup2(_, chat_id):
         ],
 [
             InlineKeyboardButton(
-                text="⛦ ᴏᴡɴᴇʀ ❥", url=f"https://t.me/Tgsahibi010"
+                text="⛦ ᴋᴜʀᴜᴄᴜ ❥", url=f"https://t.me/Tgsahibi010"
             ),
             InlineKeyboardButton(
                 text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/effectbots"
