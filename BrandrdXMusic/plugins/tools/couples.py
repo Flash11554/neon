@@ -14,7 +14,7 @@ from BrandrdXMusic.mongo.couples_db import _get_image, get_couple
 POLICE = [
     [
         InlineKeyboardButton(
-            text="ᴍʏ ᴄᴜᴛᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ  🥀",
+            text="ᴍəɴɪᴍ sᴇᴠɪᴍʟɪ ᴋᴜʀᴜᴄᴜᴍ  🥀",
             url=f"https://t.me/Tgsahibi010",
         ),
     ],
@@ -45,11 +45,11 @@ today = str(dt()[0])
 async def ctest(_, message):
     cid = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
-        return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘs.")
+        return await message.reply_text("**Bu komanda ancaq qruplarda işləyir**")
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
-         msg = await message.reply_text("ɢᴇɴᴇʀᴀᴛɪɴɢ ᴄᴏᴜᴘʟᴇs ɪᴍᴀɢᴇ...")
+         msg = await message.reply_text("ᴄüᴛʟüᴋ şəᴋɪʟʟəʀɪɴɪɴ ʏᴀʀᴀᴅıʟᴍᴀsı...")
          #GET LIST OF USERS
          list_of_users = []
 
@@ -106,11 +106,11 @@ async def ctest(_, message):
          img.save(f'test_{cid}.png')
     
          TXT = f"""
-**ᴛᴏᴅᴀʏ's ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ :
+**ʙᴜɢüɴᴋü ᴄüᴛʟüᴋ :
 
 {N1} + {N2} = 💚
 
-ɴᴇxᴛ ᴄᴏᴜᴘʟᴇs ᴡɪʟʟ ʙᴇ sᴇʟᴇᴄᴛᴇᴅ ᴏɴ {tomorrow} !!**
+ ɴöᴠʙəᴛɪ ᴄüᴛʟüᴋ sᴇçɪʟəᴄəᴋ {tomorrow} !!**
 """
     
          await message.reply_photo(f"test_{cid}.png", caption=TXT, reply_markup=InlineKeyboardMarkup(POLICE),
@@ -124,7 +124,7 @@ async def ctest(_, message):
     
          
       # elif is_selected:
-      #   msg = await message.reply_text("𝐆ᴇᴛᴛɪɴɢ 𝐓ᴏᴅᴀʏs 𝐂ᴏᴜᴘʟᴇs 𝐈ᴍᴀɢᴇ...")
+      #   msg = await message.reply_text("Bᴜ Güɴᴋɪ Cüᴛʟüᴋ Şəᴋɪʟʟəʀɪɴɪɴ Yᴀʀᴀᴅıʟᴍᴀsı...")
       #   b = await _get_image(cid)
        #  c1_id = int(is_selected["c1_id"])
        #  c2_id = int(is_selected["c2_id"])
@@ -132,11 +132,11 @@ async def ctest(_, message):
         # c2_name = (await app.get_users(c2_id)).first_name
          
       #   TXT = f"""
-#**ᴛᴏᴅᴀʏ's sᴇʟᴇᴄᴛᴇᴅ ᴄᴏᴜᴘʟᴇs 🎉 :
+#**Bu günki cütlük 🎉 :
 #➖➖➖➖➖➖➖➖➖➖➖➖
 #[{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = ❣️
 #➖➖➖➖➖➖➖➖➖➖➖➖
-#ɴᴇxᴛ ᴄᴏᴜᴘʟᴇꜱ ᴡɪʟʟ ʙᴇ ꜱᴇʟᴇᴄᴛᴇᴅ ᴏɴ {tomorrow} !!**
+#** ɴöᴠʙəᴛɪ ᴄüᴛʟüᴋ sᴇçɪʟəᴄəᴋ {tomorrow} !!**
 #"""
  #        await message.reply_photo(b, caption=TXT)
         # await msg.delete()
