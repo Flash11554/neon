@@ -45,10 +45,10 @@ async def inline_query_handler(client, query):
             searched_text = f"""
 ❄ <b>ᴛɪᴛʟᴇ :</b> <a href={link}>{title}</a>
 
-⏳ <b>ᴅᴜʀᴀᴛɪᴏɴ :</b> {duration} ᴍɪɴᴜᴛᴇs
-👀 <b>ᴠɪᴇᴡs :</b> <code>{views}</code>
-🎥 <b>ᴄʜᴀɴɴᴇʟ :</b> <a href={channellink}>{channel}</a>
-⏰ <b>ᴘᴜʙʟɪsʜᴇᴅ ᴏɴ :</b> {published}
+⏳ <b>Müddət :</b> {duration} Dəqiqə
+👀 <b>Baxış :</b> <code>{views}</code>
+🎥 <b>Kanal :</b> <a href={channellink}>{channel}</a>
+⏰ <b>Yayımlanıb :</b> {published}
 
 
 <u><b>➻ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ᴍᴏᴅᴇ ʙʏ {app.name}</b></u>"""
