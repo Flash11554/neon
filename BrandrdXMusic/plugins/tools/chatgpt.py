@@ -14,7 +14,7 @@ async def chat_gpt(bot, message):
 
         # Check if a query was provided
         if len(message.command) < 2:
-            await message.reply_text(f"**Hello {name}, How can I help you today?**")
+            await message.reply_text(f"**Salam {name} Effect eşidir, Sizə necə kömək edə bilərəm?**")
         else:
             query = message.text.split(' ', 1)[1]  # Extract query text
             api_url = f"https://darkness.ashlynn.workers.dev/chat/?prompt={query}"
