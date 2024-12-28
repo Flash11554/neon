@@ -13,7 +13,7 @@ async def google_img_search(client: Client, message: Message):
     try:
         query = message.text.split(None, 1)[1]
     except IndexError:
-        return await message.reply("Provide an image query to search!")
+        return await message.reply("Şəkilləri hazır etmək üçün istədiyinizi yazın !")
 
     lim = findall(r"lim=\d+", query)
     try:
@@ -33,12 +33,12 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Error in downloading images: {e}")
 
-    msg = await message.reply("Effect Scrapping images...")
+    msg = await message.reply("**Effect şekilleri hazırlayır...**")
 
     count = 0
     for img in lst:
         count += 1
-        await msg.edit(f"=> Effect owo scrapped images {count}")
+        await msg.edit(f"=> **Effect şəkilləri hazırlayır...** {count}")
 
     try:
         await app.send_media_group(
@@ -50,4 +50,4 @@ async def google_img_search(client: Client, message: Message):
         await msg.delete()
     except Exception as e:
         await msg.delete()
-        return await message.reply(f"Error in sending images: {e}")
+        return await message.reply(f"Şəkilləri göndərərkən səhv baş verdi: {e}")
