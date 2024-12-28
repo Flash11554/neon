@@ -17,7 +17,7 @@ async def quiz(client, message):
 
     if user_id in last_command_time and current_time - last_command_time[user_id] < 5:
         await message.reply_text(
-            "Pʟᴇᴀsᴇ ᴡᴀɪᴛ 𝟻 sᴇᴄᴏɴᴅs ʙᴇғᴏʀᴇ ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀɢᴀɪɴ."
+            "Zəhmət olmasa 5 saniyə gözləyin"
         )
         return
 
