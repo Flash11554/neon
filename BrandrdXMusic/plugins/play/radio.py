@@ -45,7 +45,7 @@ valid_stations = "\n".join([f"`{name}`" for name in sorted(RADIO_STATION.keys())
     & ~BANNED_USERS
 )
 async def radio(client, message: Message):
-    msg = await message.reply_text("ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ....")
+    msg = await message.reply_text("Zehmət olmasa biraz gözləyin....")
     try:
         try:
             userbot = await get_assistant(message.chat.id)
@@ -106,16 +106,16 @@ async def radio(client, message: Message):
                 await app.approve_chat_join_request(message.chat.id, userbot.id)
             except Exception as e:
                 return await msg.edit(
-                    f"ғᴀɪʟᴇᴅ ᴛᴏ ɪɴᴠɪᴛᴇ {userbot.mention} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}.\n\n**ʀᴇᴀsᴏɴ :** `{ex}`"
+                    f"ᴅəᴠəᴛ ᴇᴅə ʙɪʟᴍəᴅɪ {userbot.mention} ᴋöᴍəᴋçɪɴɪ {message.chat.title}.\n\n**ʀᴇᴀsᴏɴ :** `{ex}`"
                 )
         except Exception as ex:
             if "channels.JoinChannel" in str(ex) or "Username not found" in str(ex):
                 return await msg.edit_text(
-                    f"» ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴠɪᴀ ʟɪɴᴋ ғᴏʀ ɪɴᴠɪᴛɪɴɢ {userbot.mention} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}."
+                    f"» ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ɪɴᴠɪᴛᴇ ᴜsᴇʀs ᴠɪᴀ ʟɪɴᴋ ғᴏʀ ɪɴᴠɪᴛɪɴɢ {userbot.mention} ᴋöᴍəᴋçɪɴɪ {message.chat.title}."
                 )
             else:
                 return await msg.edit_text(
-                    f"ғᴀɪʟᴇᴅ ᴛᴏ ɪɴᴠɪᴛᴇ {userbot.mention} ᴀssɪsᴛᴀɴᴛ ᴛᴏ {message.chat.title}.\n\n**ʀᴇᴀsᴏɴ :** `{ex}`"
+                    f"ᴅəᴠəᴛ ᴇᴅə ʙɪʟᴍəᴅɪ {userbot.mention} ᴋöᴍəᴋçɪɴɪ {message.chat.title}.\n\n**ʀᴇᴀsᴏɴ :** `{ex}`"
                 )
 
         try:
