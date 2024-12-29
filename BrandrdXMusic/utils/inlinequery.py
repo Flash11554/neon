@@ -6,37 +6,37 @@ answer.extend(
     [
         InlineQueryResultArticle(
             title="Pᴀᴜsᴇ",
-            description=f"ᴩᴀᴜsᴇ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description=f"**hal hazırdaki yayımı saxlatmaq**",
             thumb_url="https://te.legra.ph/file/df8fa2868f8a277718a47.jpg",
             input_message_content=InputTextMessageContent("/pause"),
         ),
         InlineQueryResultArticle(
             title="Rᴇsᴜᴍᴇ",
-            description=f"ʀᴇsᴜᴍᴇ ᴛʜᴇ ᴩᴀᴜsᴇᴅ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description=f"**hal hazırdaki yayımı dəvam elətdimək**",
             thumb_url="https://te.legra.ph/file/df8fa2868f8a277718a47.jpg",
             input_message_content=InputTextMessageContent("/resume"),
         ),
         InlineQueryResultArticle(
             title="Sᴋɪᴩ",
-            description=f"sᴋɪᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ ᴀɴᴅ ᴍᴏᴠᴇs ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴛʀᴇᴀᴍ.",
+            description=f"hal hazırdaki yayımı keçid elətdirmək**",
             thumb_url="https://te.legra.ph/file/df8fa2868f8a277718a47.jpg",
             input_message_content=InputTextMessageContent("/skip"),
         ),
         InlineQueryResultArticle(
             title="Eɴᴅ",
-            description="ᴇɴᴅ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ sᴛʀᴇᴀᴍ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description="**hal hazırdaki bitirmək**",
             thumb_url="https://te.legra.ph/file/df8fa2868f8a277718a47.jpg",
             input_message_content=InputTextMessageContent("/end"),
         ),
         InlineQueryResultArticle(
             title="Sʜᴜғғʟᴇ",
-            description="sʜᴜғғʟᴇ ᴛʜᴇ ǫᴜᴇᴜᴇᴅ sᴏɴɢs ɪɴ ᴩʟᴀʏʟɪsᴛ.",
+            description="**hal hazırdaki yayımı qarışdırmaq**",
             thumb_url="https://te.legra.ph/file/df8fa2868f8a277718a47.jpg",
             input_message_content=InputTextMessageContent("/shuffle"),
         ),
         InlineQueryResultArticle(
             title="Lᴏᴏᴩ",
-            description="ʟᴏᴏᴩ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴩʟᴀʏɪɴɢ ᴛʀᴀᴄᴋ ᴏɴ ᴠɪᴅᴇᴏᴄʜᴀᴛ.",
+            description="**hal hazırdaki yayımı döndərmək**",
             thumb_url="https://te.legra.ph/file/df8fa2868f8a277718a47.jpg",
             input_message_content=InputTextMessageContent("/loop 3"),
         ),
