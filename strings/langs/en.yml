@@ -80,7 +80,6 @@ start_4: "🎄 <b>SUPERQRUP LAZIMDIR</b> 🎄\n\nZəhmət olmasa, <b>qrupunuzu</
 start_5: "<b>↝ QARA LİSTƏDƏ OLAN CHAT ↜</b>\n\nBu chat {0} verilənlər bazasında qara siyahıya alınıb.\nChatınızı açmaq üçün <a href={1}>sudo istifadəçisindən</a> sorğu edin və ya <a href={2}>dəstək chatına</a> baş çəkin."
 start_6: "😲 <b>MUSİQİ MƏLUMATLARI</b> 😲\n\n📌 <b>Başlıq :</b> {0}\n\n⏳ <b>Müddət :</b> {1} dəqiqə\n👀 <b>Baxışlar :</b> <code>{2}</code>\n⏰ <b>Yayımlandı :</b> {3}\n📎 <b>Kanallar :</b> <a href={4}>{5}</a>\n\n<u><b>🥀 Axtarış gücləndirildi {6} tərəfindən</b></u>"
 
-
 #Playlist
 playlist_1: "İstifadə: /play [musiqi adı və ya YouTube linki və ya audioya cavab verin] \n\nƏgər botun server playlistini oynatmaq istəyirsinizsə! Aşağıdakı düyməni sıxın."
 playlist_2: "Sizin playlistinizi alırıq... Zəhmət olmasa gözləyin!"
@@ -112,6 +111,7 @@ lyrics_1: "İSTİFADƏ:\n\n/lyrics [ ᴍᴜsɪᴋ İSMİ]"
 lyrics_2: "SƏRGİLƏNİB LİRİKLƏR AXTARIR..."
 lyrics_3: "❌ LİRİKLƏRİ TAPMAQDA UĞURSUZ OLDU 😭.\n\n💡AŞAĞIDAKI AXTARIŞI SÜZÜN: {0}"
 lyrics_4: "LİRİKLƏRİ AXTARMAQ ÜÇÜN AŞAĞIDAKI DÜYMƏYƏ TIKLAYIN, UZUN SPAM TİPİ LİRİKLƏRİ AXTARMAĞIN ÖNÜNÜ KƏSMƏK ÜÇÜN."
+
 
 setting_1: "<u><b>{0} TƏMİZLƏMƏ PANELİ</b></u>\n\n<b>ÇAT ID:</b> <code>{1}</code>\n<b>ÇAT ADI:</b> {2}\n\nAşağıdakı düymələrə klikləyərək təmizləmələri dəyişdirə bilərsiniz."
 setting_2: "» Direkt: Axtarış sorğuları birbaşa oynadır.\n\n» İnline: Video və audio arasında seçim etmək üçün inline düymələrini göstərir."
@@ -205,7 +205,6 @@ stream_1: "➲ <b>STRƏM BAŞLADI |</b>\n\n<b>➠ AD :</b> <a href={0}>{1}</a>\n
 stream_2: "➲ <b>STRƏM BAŞLADI |</b>\n\n<b>➠ STRƏM TİPİ :</b> CANLI STRƏM [URL]\n<b>➠ İSTƏYƏN :</b> {0}"
 stream_3: "➲ <b>YARADAN ➠ [Legend] (https://t.me/Tgsahibi010) "
 
-
 #General
 CLOSE_BUTTON  : "↻ bağla ↻"
 CLOSEMENU_BUTTON  : "↻ bağla ↻"
@@ -229,7 +228,6 @@ PL_B_8: "🔢 ᴛᴏᴘ 10 oynatma"
 PL_B_9: "🔥 ɢlᴏʙᴀʟ ᴛᴏᴘ 10 ᴛʀekleri oynat"
 PL_B_10: "🏘 ɢʀᴜᴘᴜɴ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋleri oynat"
 PL_B_11: "💖 ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 ᴛʀekleri oynat"
-
 
 #Song
 SG_B_1 : "• ᴄʟɪᴄᴋ ʜᴇʀᴇ •"
@@ -270,8 +268,6 @@ H_B_22: "Şəkil"
 H_B_23: "Əməliyyat"
 H_B_24: "Axtarış"
 
-
-
 P_B_1 : "⛦ sesli "
 P_B_2 : " video 🥀"
 P_B_3 : "⛦ canlı yayım "
@@ -291,7 +287,6 @@ ST_B_11: "Birbaşa"
 ST_B_12: "Onlayn"
 ST_B_13: "Admin əmrləri ➜"
 ST_B_14: "Oynatma tipi ➜"
-
 
 SA_B_1 : "bütün məlumatlar"
 SA_B_2 : "☁️ ümumi"
@@ -317,7 +312,6 @@ block_5: "» Heç bir bloklanmış istifadəçi tapılmadı."
 block_6: "» Bloklanmış istifadəçilər siyahısını alır..."
 block_7: "<b>😫 Bloklanmış İstifadəçilər :</b>\n\n"
 
-
 black_1: "<b>Nümunə :</b>\n\n/blacklistchat [çət ID]"
 black_2: "» Bu çat artıq qara siyahıdadır."
 black_3: "» Uğurla qara siyahıya əlavə olundu."
@@ -328,13 +322,11 @@ black_7: "» Qara siyahıya alınan çətlərin siyahısı :\n\n"
 black_8: "» {0} üzərində qara siyahıda heç bir çat yoxdur."
 black_9: "» Nəsə səhv oldu."
 
-
 maint_1: "<b>nümunə :</b>\n/maintenance [aktivləşdir | deaktivləşdir]"
 maint_2: "» {0} baxım rejimi aktivləşdirildi."
 maint_3: "» {0} baxım rejimi deaktivləşdirildi."
 maint_4: "» baxım rejimi artıq aktivdir."
 maint_5: "» baxım rejimi artıq deaktivdir."
-
 
 log_1 : "<b>nümunə :</b>\n/logger [ᴇɴᴀʙʟᴇ | ᴅɪsᴀʙʟᴇ]"
 log_2 : "giriş aktiv"
