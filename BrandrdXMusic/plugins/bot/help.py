@@ -31,8 +31,7 @@ async def helper_private(
         keyboard = help_pannel(_, True)
         await update.edit_message_text(
             KATEQORİYANIZI SEÇİN  
-"Hansı mövzuda köməyə ehtiyacınız varsa, dəstək söhbətində suallarınızı verin.
-            Bütün əmrlər belə istifadə oluna bilər: /".format(SUPPORT_CHAT), reply_markup=keyboard
+"Hansı mövzuda köməyə ehtiyacınız varsa, dəstək qrupuna baxa bilərsiniz ".format(SUPPORT_CHAT), reply_markup=keyboard
         )
     else:
         try:
