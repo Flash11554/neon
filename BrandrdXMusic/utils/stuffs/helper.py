@@ -16,7 +16,7 @@ ChatGPT ƏMRLƏRİ:
 
     HELP_Reel = """Relslər
 
-Reel ƏMRLƏRİ:
+Reelslər ƏMRLƏRİ:
 
 /ig [URL] ➠ Instagram videolarını yükləyin. Komandanın ardından Instagram URL-ni qeyd edin.
 /instagram [URL] ➠ Instagram videolarını yükləyin. URL-ni qeyd edin.
@@ -25,7 +25,7 @@ Reel ƏMRLƏRİ:
 
     HELP_TagAll = """Tag-etmə
 
-Tag ƏMRLƏRİ:
+Tag-etmə ƏMRLƏRİ:
 
 ✿ Çatda tag seçin ✿
 
@@ -43,15 +43,15 @@ Dayandırmaq üçün: /tagoff /tagstop"""
 
     HELP_Info = """İnfo
 
-Məlumat ƏMRLƏRİ:
+İnfo ƏMRLƏRİ:
 
 /id : Mövcud qrupun ID-sini alın. Mesaja cavab olaraq istifadə edildikdə həmin istifadəçinin ID-sini göstərir.  
 /info : İstifadəçi haqqında məlumat alın.
 """
 
-    HELP_History = """Tarixçə
+    HELP_History = """İstifadəçi Tarixi
 
-Tarixçə ƏMRLƏRİ:
+İstifadəçi Tarixi ƏMRLƏRİ:
 
 Qrup idarəetmə əmrləri:
 
@@ -86,9 +86,9 @@ Cütlüklər ƏMRLƏRİ:
 ⦿ /tr ➠ Mətn tərcümə edir.
 """
 
-    HELP_Action = """Fəaliyyət
+    HELP_Action = """Funksiyaları
 
-Fəaliyyət ƏMRLƏRİ:
+Funksiyaları ƏMRLƏRİ:
 
 » Ban və Səssizlik üçün mövcud əmrlər:
 
@@ -116,23 +116,23 @@ Nümunə:
 /google pyrogram: Ən yaxşı 5 nəticəni qaytarır.
 """
 
-    HELP_Font = """Şrift
+    HELP_Font = """Şrift-çevirmə
 
-Şrift modulu ilə mətnlərinizin şriftini dəyişə bilərsiniz.
+Şrift-çevirmə modulu ilə mətnlərinizin şriftini dəyişə bilərsiniz.
 
 Əmr:  
 ◌ /font [Mətn]
 """
 
-    HELP_Bots = """Botlar
+    HELP_Bots = """Qrupdaki Botlar
 
-Botlar haqqında məlumat almaq üçün əmrlər:  
+Qrupdaki Botlar haqqında məlumat almaq üçün əmrlər:  
 ◌ /bots - Qrupdakı botların siyahısını göstərir.
 """
 
-    HELP_TG = """Ⓣ-Qraf
+    HELP_TG = """Teleqraf 
 
-Ⓣ-Qraf ƏMRLƏRİ:
+Teleqraf ƏMRLƏRİ:
 
 Telegraph linki ilə media yaradın!
 
@@ -140,24 +140,24 @@ Telegraph linki ilə media yaradın!
 ◌ /tgt [istənilən media ilə cavab verin]
 """
 
-    HELP_TD = """Düzlük və Cəsarət
+    HELP_TD = """Doğru-Cəsarət
 
-ƏMRLƏR:  
+Doğru-Cəsarət ƏMRLƏRİ:  
 
 ◌ /truth : Təsadüfi bir sual təqdim edir.  
 ◌ /dare : Təsadüfi bir tapşırıq təqdim edir.
 """
 
-    HELP_Quiz = """Viktorina
+    HELP_Quiz = """Suallar
 
-Viktorina ƏMRİ:
+Suallar ƏMRİ:
 
 ◌ /quiz - Təsadüfi sual əldə etmək üçün.
 """
 
-    HELP_TTS = """Mətnə Səs
+    HELP_TTS = """Mətni-Sesə
 
-ƏMR:
+Mətni-Sesə ƏMRLƏRİ:
 
 ❀ Mətn Səsləndirmə  
 ◌ /tts : [mətn]  
@@ -165,7 +165,7 @@ Viktorina ƏMRİ:
 
     HELP_Radio = """Radio
 
-Radio ƏMRİ:
+Radio ƏMRLƏRİ:
 
 ◌ /radio - Səsli söhbətdə radio oynatmaq üçün.
 """
