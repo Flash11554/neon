@@ -55,7 +55,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("FrozenXMusic").info("Stopping Frozen Music Bot...")
+    LOGGER("FrozenXMusic").info("Effect bot dayandırılır...")
 
 
 if __name__ == "__main__":
