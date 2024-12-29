@@ -189,7 +189,8 @@ ping_1: "{0} ping edir..."
 ping_2: "🏓 Pong: <code>{0}ms</code>\n\n<b><u>{1} sistem statistika:</u></b>\n\n✨ Aktiv: {2}\n❄️ RAM: {3}\n💫 CPU: {4}\n🔮 Disk: {5}\n☁️ PY-TGCALLS: <code>{6}ms</code>"
 
 str_1: "Zəhmət olmasa, M3U8 və ya indeks bağlantılarını təmin edin."
-str_2: "➻ Etibarlı axın təsdiqləndi.\n\nİşlənir..."str_3: "YouTube canlı axınına başlamaqda uğursuz oldu, canlı format tapılmadı."
+str_2: "➻ Etibarlı axın təsdiqləndi.\n\nİşlənir..."
+str_3: "YouTube canlı axınına başlamaqda uğursuz oldu, canlı format tapılmadı."
 
 queue_1: "» Sıra alınır...\n\nZəhmət olmasa gözləyin..."
 queue_2: "» Sıra boşdur."
