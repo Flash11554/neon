@@ -3,7 +3,7 @@ from pyrogram import Client, filters, enums
 
 class BUTTONS(object):
     MBUTTON = [[InlineKeyboardButton("**ChatGPT**", callback_data="mplus HELP_ChatGPT"),InlineKeyboardButton("**İstifadəçi Tarixi**", callback_data="mplus HELP_History"),InlineKeyboardButton("**Relslər**", callback_data="mplus HELP_Reel")],
-    [InlineKeyboardButton("**Tag etme**", callback_data="mplus HELP_TagAll"),
+    [InlineKeyboardButton("**Tag-etme**", callback_data="mplus HELP_TagAll"),
     InlineKeyboardButton("**Info**", callback_data="mplus HELP_Info"),InlineKeyboardButton("**Fotonu-Linkə**", callback_data="mplus HELP_Extra")],
     [InlineKeyboardButton("**Cütlüklər**", callback_data="mplus HELP_Couples"),
     InlineKeyboardButton("**Funksiyaları**", callback_data="mplus HELP_Action"),InlineKeyboardButton("**Axtarış**", callback_data="mplus HELP_Search")],    
