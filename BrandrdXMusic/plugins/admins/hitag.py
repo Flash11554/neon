@@ -160,7 +160,7 @@ async def mention_allvc(client, message):
 
 
 
-@app.on_message(filters.command(["srstop", "cancel", "lifestop"]))
+@app.on_message(filters.command(["srstop", "cancel"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("๏ Indi Tag etme prosesi başlamayıb ")
