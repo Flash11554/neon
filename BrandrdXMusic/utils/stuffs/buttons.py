@@ -14,6 +14,6 @@ class BUTTONS(object):
     [InlineKeyboardButton("**Mətni-sesə**", callback_data="mplus HELP_TTS"),
     InlineKeyboardButton("**Radio**", callback_data="mplus HELP_Radio"),InlineKeyboardButton("**Ses-vermə**", callback_data="mplus HELP_Q")],          
     [InlineKeyboardButton("◁", callback_data=f"settings_back_helper"),
-     InlineKeyboardButton("↻ ʙᴀᴄᴋ ↻", callback_data=f"mbot_cb"), 
+     InlineKeyboardButton("↻ Geri ↻", callback_data=f"mbot_cb"), 
     InlineKeyboardButton("▷", callback_data=f"managebot123 settings_back_helper"),
     ]]
