@@ -6,14 +6,14 @@ from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
 from BrandrdXMusic import app
 
-@app.on_message(filters.command(["imgs", "image", "cek"], prefixes=["/", "!"]))
+@app.on_message(filters.command(["imgs", "image"], prefixes=["/", "!"]))
 async def google_img_search(client: Client, message: Message):
     chat_id = message.chat.id
 
     try:
         query = message.text.split(None, 1)[1]
     except IndexError:
-        return await message.reply("Şəkilləri hazır etmək üçün istədiyinizi yazın!")
+        return await message.reply("Provide an image query to search!")
 
     lim = findall(r"lim=\d+", query)
     try:
@@ -33,12 +33,12 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Error in downloading images: {e}")
 
-    msg = await message.reply("Effect şekilleri hazırlayır...")
+    msg = await message.reply("𝔹𝕣𝕒𝕟𝕕𝕖𝕕𝕏𝕄𝕒𝕟𝕒𝕘𝕖𝕞𝕖𝕟𝕥 Scrapping images...")
 
     count = 0
     for img in lst:
         count += 1
-        await msg.edit(f"=> Effect şəkilləri hazırlayır... {count}")
+        await msg.edit(f"=> 𝔹𝕣𝕒𝕟𝕕𝕖𝕕𝕏𝕄𝕒𝕟𝕒𝕘𝕖𝕞𝕖𝕟𝕥 owo scrapped images {count}")
 
     try:
         await app.send_media_group(
@@ -50,4 +50,4 @@ async def google_img_search(client: Client, message: Message):
         await msg.delete()
     except Exception as e:
         await msg.delete()
-        return await message.reply(f"Şəkilləri göndərərkən səhv baş verdi: {e}")
+        return await message.reply(f"Error in sending images: {e}")
