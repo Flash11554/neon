@@ -14,7 +14,7 @@ ChatGPT ƏMRLƏRİ:
 /de (/ask) ➠ Süni Zəka modelinə suallarınızı verib cavab alın.
 """
 
-    HELP_Reel = """Reel
+    HELP_Reel = """Relslər
 
 Reel ƏMRLƏRİ:
 
@@ -23,7 +23,7 @@ Reel ƏMRLƏRİ:
 /reel [URL] ➠ Instagram videolarını yükləyin. URL-ni qeyd edin.
 """
 
-    HELP_TagAll = """Tag
+    HELP_TagAll = """Tag-etmə
 
 Tag ƏMRLƏRİ:
 
@@ -41,7 +41,7 @@ Tagı dayandırmaq üçün: /grstop
 ๏ /tagall ➛ Təsadüfi mesaj tagı  
 Dayandırmaq üçün: /tagoff /tagstop"""
 
-    HELP_Info = """Məlumat
+    HELP_Info = """İnfo
 
 Məlumat ƏMRLƏRİ:
 
