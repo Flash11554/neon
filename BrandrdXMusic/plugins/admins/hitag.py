@@ -115,7 +115,7 @@ async def mentionall(client, message):
         pass
 
 
-@app.on_message(filters.command(["lifetagg"], prefixes=["/", "@", "#"]))
+@app.on_message(filters.command(["cancel", "lifetagg"], prefixes=["/", "@", "#"]))
 async def mention_allvc(client, message):
     chat_id = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
@@ -160,7 +160,7 @@ async def mention_allvc(client, message):
 
 
 
-@app.on_message(filters.command(["cancel", "srstop", "lifestop"]))
+@app.on_message(filters.command(["srstop", "cancel", "lifestop"]))
 async def cancel_spam(client, message):
     if not message.chat.id in spam_chats:
         return await message.reply("๏ Indi Tag etme prosesi başlamayıb ")
