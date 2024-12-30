@@ -19,19 +19,19 @@ from telethon.tl.functions.phone import (
 # vc on
 @app.on_message(filters.video_chat_started)
 async def brah(_, msg):
-    await msg.reply("**😍ᴄᴀɴʟı ʏᴀʏıᴍ ʙᴀşʟᴀɴıʟᴅı🥳**")
+    await msg.reply("**😍ᴄᴀɴʟı ʏᴀʏıᴍ ʙᴀşʟᴀɴᴅı🥳**")
 
 
 # vc off
 @app.on_message(filters.video_chat_ended)
 async def brah2(_, msg):
-    await msg.reply("**😕ᴄᴀɴʟı ʏᴀʏıᴍ sᴏɴʟᴀɴıʟᴅı💔**")
+    await msg.reply("**😕ᴄᴀɴʟı ʏᴀʏıᴍ sᴏɴʟᴀɴᴅı💔**")
 
 
 # invite members on vc
 @app.on_message(filters.video_chat_members_invited)
 async def brah3(app: app, message: Message):
-    text = f"➻ {message.from_user.mention}\n\n**๏ ɪɴᴠɪᴛɪɴɢ ɪɴ ᴠᴄ ᴛᴏ :**\n\n**➻ **"
+    text = f"➻ {message.from_user.mention}\n\n**๏ ᴠɪᴅᴇᴏ-söʜʙəᴛə ᴅəᴠəᴛ ᴇᴅɪʟɪʀ :**\n\n**➻ **"
     x = 0
     for user in message.video_chat_members_invited.users:
         try:
@@ -49,7 +49,7 @@ async def brah3(app: app, message: Message):
             reply_text,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="๏ ᴊᴏɪɴ ᴠᴄ ๏", url=add_link)],
+                    [InlineKeyboardButton(text="๏ ᴠɪᴅᴇᴏ-söʜʙəᴛə ǫᴏşᴜʟᴜɴ ๏", url=add_link)],
                 ]
             ),
         )
@@ -99,7 +99,7 @@ async def search(event):
                     continue
                 result += f"{title}\n{link}\n\n"
             prev_and_next_btns = [
-                Button.inline("▶️Next▶️", data=f"next {start+10} {event.text.split()[1]}")
+                Button.inline("▶️Next▶️", data=f"növbəti {start+10} {event.text.split()[1]}")
             ]
             await msg.edit(result, link_preview=False, buttons=prev_and_next_btns)
             await session.close()
