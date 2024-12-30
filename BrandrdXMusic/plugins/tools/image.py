@@ -33,7 +33,8 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Şəkilləri göndərərkən səhv baş verdi: {e}")
 
-    msg = await message.reply("Effect şəkilləri hazırlayır...")
+    msg = await message.reply("𝔹𝕣𝕒𝕟𝕕𝕖𝕕𝕏𝕄𝕒𝕟𝕒𝕘𝕖𝕞𝕖𝕟𝕥 Scrapping images...")
+    ")
 
     count = 0
     for img in lst:
