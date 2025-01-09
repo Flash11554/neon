@@ -1,4 +1,4 @@
-name : 🇺🇸 Azerbaijan 
+name : 🇦🇿 Azerbaijan 
 
 # Reason Of Gban Or Ungban
 gban_reason: "Bot yalnız istifadəçi adı və səbəb verdikdə işləyəcək."
@@ -230,7 +230,7 @@ PL_B_10: "🏘 ɢʀᴜᴘᴜɴ ᴛᴏᴘ 10 ᴛʀᴀᴄᴋleri oynat"
 PL_B_11: "💖 ᴘᴇʀsᴏɴᴀʟ ᴛᴏᴘ 10 ᴛʀekleri oynat"
 
 #Song
-SG_B_1 : "• ᴄʟɪᴄᴋ ʜᴇʀᴇ •"
+SG_B_1 : "• Bura bas •"
 SG_B_2 : "🎧 sesli🎧"
 SG_B_3 : "🎥 ᴠɪᴅᴇᴏ 🎥"
 
@@ -242,6 +242,7 @@ S_B_4: "Yardım və əmrlər ⚒️"
 S_B_5: "⛦ Kurucu ✅"
 S_B_6: "Kanal 🥀"
 S_B_7: "⛦ Mənbə ☢️"
+S_B_8: " YouTube 🔎"
 
 H_B_1: "Admin"
 H_B_2: "Təsdiq"
