@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Flash11552/effectmusic",
+    "https://github.com/Flash11553/xpert",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -89,13 +89,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/yl4q8t.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/yl4q8t.jpg"
 )
-PLAYLIST_IMG_URL = "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
-STATS_IMG_URL = "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/yl4q8t.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/yl4q8t.jpg"
 TELEGRAM_AUDIO_URL = "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
 TELEGRAM_VIDEO_URL = "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
 STREAM_IMG_URL = "https://i.ibb.co/gJSJh8Y/8bbc112fbea1.jpg"
