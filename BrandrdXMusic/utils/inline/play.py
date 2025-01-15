@@ -60,18 +60,18 @@ def stream_markup_timer(_, vidid, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="▶️", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="🔁", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="⏩", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
                 text="⛦ ᴋᴜʀᴜᴄᴜ ❥", url=f"https://t.me/Tgsahibi010"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/effectbots"
+                text="⛦ sᴜᴘᴘᴏʀᴛ ❥", url=f"https://t.me/https://t.me/Xpert_Support"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -93,7 +93,7 @@ def stream_markup(_, videoid, chat_id):
                 text="⛦ ᴋᴜʀᴜᴄᴜ ❥", url=f"https://t.me/Tgsahibi010"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/effectbots"
+                text="⛦ sᴜᴘᴘᴏʀᴛ ❥", url=f"https://t.me/Xpert_Support"
             ),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -219,7 +219,7 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⛦ ᴍᴏʀᴇ ❥",
+                text="⛦ daha ❥",
                 callback_data=f"PanelMarkup None|{chat_id}",
             ),
         ],
@@ -237,18 +237,18 @@ def stream_markup2(_, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="▶️", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="🔁", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="⏩", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
 [
             InlineKeyboardButton(
                 text="⛦ ᴋᴜʀᴜᴄᴜ ❥", url=f"https://t.me/Tgsahibi010"
             ),
             InlineKeyboardButton(
-                text="⛦ ᴄʜᴀᴛ ❥", url=f"https://t.me/effectbots"
+                text="⛦ sᴜᴘᴘᴏʀᴛ ❥", url=f"https://t.me/Xpert_Support"
             ),
         ],
 
@@ -289,11 +289,11 @@ def stream_markup_timer2(_, chat_id, played, dur):
             )
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="▶️", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="🔁", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="⏩", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(text=_["CLOSEMENU_BUTTON"], callback_data="close"),
@@ -523,11 +523,11 @@ def panel_markup_clone(_, vidid, chat_id):
             ),
         ],
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="▶️", callback_data=f"ADMIN Resume|{chat_id}"),
+            InlineKeyboardButton(text="⏸️", callback_data=f"ADMIN Pause|{chat_id}"),
+            InlineKeyboardButton(text="🔁", callback_data=f"ADMIN Replay|{chat_id}"),
+            InlineKeyboardButton(text="⏩", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="⏹️", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
