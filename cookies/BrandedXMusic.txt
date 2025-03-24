@@ -2,7 +2,6 @@
 # https://curl.haxx.se/rfc/cookie_spec.html
 # This is a generated file! Do not edit.
 
-.youtube.com	TRUE	/	TRUE	1758388171	__Secure-ROLLOUT_TOKEN	CNHfhNzlutPS3gEQkdGT0ZOBiwMYj6Wp15qjjAM%3D
 .youtube.com	TRUE	/	TRUE	1758388171	VISITOR_INFO1_LIVE	oabPjyXYOd4
 .youtube.com	TRUE	/	TRUE	1758388171	VISITOR_PRIVACY_METADATA	CgJBWhIEGgAgIQ%3D%3D
 .youtube.com	TRUE	/	TRUE	1777396172	PREF	tz=Asia.Baku&f5=30000
